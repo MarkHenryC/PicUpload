@@ -1,0 +1,27 @@
+Purpose of this demo:
+
+Take a picture and have it automatically placed in an accessible web location. Data containing time of picture, an arbitrary rating and location is sent with the picture, embedded in the filename. When viewed, the filename is parsed and images are shown, along time, category, and with a link to Google maps, showing the location the image was taken.
+
+This demo shows:
+
+- Taking a picture using the Corona API
+- Getting GPS data
+- Simple user input
+- FTP uploading
+- Web site access
+
+NOTE: iOS only. Corona doesn't support camera on Android.
+
+There's a default ftp address included for testing, but you'll need to set up your own ftp folder at your own site. Remember, though that plain ftp is very insecure.
+
+To set up something similar, create a subdirectory on your web site, and an "images" directory within it. Then create an ftp username and password and set the working directory to the images subdirectory. Place the index.php file in your main subdirectory (above images). You may need to fiddle with file permissions. 755 works fine for me.
+
+yourwebsite.com
+- yoursubdirectory
+- - images
+
+If you use the test ftp site for images, they will occasionally be cleared. If you want to keep one for any reason, let me know & I'll send it to you.
+
+2011 Mark Carolan
+
+mark@sensiblegames.com

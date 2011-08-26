@@ -1,0 +1,11 @@
+settings =
+{	
+	iphone =
+	{
+		plist =
+		{	
+			UIStatusBarHidden = true,
+			UIApplicationExitsOnSuspend = true,
+		},
+	},	
+}
